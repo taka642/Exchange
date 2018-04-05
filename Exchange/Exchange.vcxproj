@@ -147,6 +147,7 @@
     <ClCompile Include="main.cpp" />
     <ClInclude Include="OneMinuteBarDto.h" />
     <ClCompile Include="RateJsonParser.cpp" />
+    <ClInclude Include="picojson.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CandleChart.h" />

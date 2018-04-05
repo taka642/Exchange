@@ -3,30 +3,30 @@ class OneMinuteBarDto {
 private:
 
 	// 高値
-	int high;
+	std::string high;
 	// 低値
-	int low;
+	std::string low;
 	// 始値
-	int open;
+	std::string open;
 	// 買い
-	int bid;
+	std::string bid;
 	// 売り
-	int ask;
+	std::string ask;
 
 public:
 
-	int getHigh() { return high; }
-	void setHigh(int high) { this->high = high; }
+	std::string getHigh() { return high; }
+	void setHigh(std::string high) { this->high = high; }
 
-	int getLow() { return low; }
-	void setLow(int low) { this->low = low; }
+	std::string getLow() { return low; }
+	void setLow(std::string low) { this->low = low; }
 
-	int getOpen() { return open; }
-	void setOpen(int open) { this->open = open; }
+	std::string getOpen() { return open; }
+	void setOpen(std::string open) { this->open = open; }
 
-	int getBid() { return bid; }
-	void setBid(int bid) { this->bid = bid; }
+	std::string getBid() { return bid; }
+	void setBid(std::string bid) { this->bid = bid; }
 
-	int getAsk() { return ask; }
-	void setAsk(int ask) { this->ask = ask; }
+	std::string getAsk() { return ask; }
+	void setAsk(std::string ask) { this->ask = ask; }
 };
